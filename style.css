@@ -110,18 +110,6 @@ li:last-child {
   margin-left: 0;
 }
 
-li:first-child {
-  font-weight: bold;
-}
-
-li:last-child {
-  font-style: italic;
-}
-
-article p:first-child {
-  color: red;
-}
-
 /* Styling links */
 a:link {
   color: #1098ad;
@@ -167,26 +155,8 @@ button {
   right: 50px;
 }
 
-h1::first-letter {
-  font-style: normal;
-  margin-right: 5px;
-}
-
 h2 {
   position: relative;
-}
-
-h2::after {
-  content: "TOP";
-  background-color: #ffe70e;
-  font-size: 16px;
-  font-weight: bold;
-  color: #444;
-  display: inline-block;
-  padding: 5px 10px;
-  position: absolute;
-  top: -10px;
-  right: -25px;
 }
 
 .main-header {
@@ -239,12 +209,6 @@ h2::after {
 
 .main-header {
   grid-column: 1 / -1;
-}
-
-article {
-}
-
-aside {
 }
 
 footer {
